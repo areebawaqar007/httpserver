@@ -10,8 +10,18 @@ const server = http.createServer((req, res) => {
     }
   });
 
-  res.write("Hello from Node.js!");
-  res.end();
+  switch (req.url) {
+    case "/":
+      res.end("Home Page");
+      break;
+
+    case "/about":
+      res.end("About Page");
+      break;
+
+    default:
+      res.end("404 Page Not Found");
+  }
 });
 
 const PORT = 4000;
