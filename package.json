@@ -1,0 +1,21 @@
+{
+  "name": "httpserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    
+    "start":"node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/areebawaqar007/httpserver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/areebawaqar007/httpserver/issues"
+  },
+  "homepage": "https://github.com/areebawaqar007/httpserver#readme"
+}
